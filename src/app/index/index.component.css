@@ -1,0 +1,14 @@
+.carousel-inner {
+    width: auto;
+    height: 450px;
+    max-height: 450px;
+}
+
+.card {
+    margin-bottom: 20px;
+    width: 318px;
+}
+
+.col-8 {
+    margin-top: 25px;
+}

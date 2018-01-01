@@ -1,0 +1,15 @@
+h1 {
+    color: black;
+    text-align: center;
+    font-style: italic;
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+.container {
+    background-color: rgb(206, 159, 3);
+}
+
+.badge {
+    font-family: "Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-style: italic;
+}

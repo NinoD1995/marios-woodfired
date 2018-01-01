@@ -6,6 +6,7 @@ import { AppComponent } from './app.component';
 import { IndexComponent } from './index/index.component';
 import { HeaderComponent } from './header/header.component';
 import { NavComponent } from './nav/nav.component';
+import { MenuComponent } from './menu/menu.component';
 
 
 @NgModule({
@@ -13,12 +14,14 @@ import { NavComponent } from './nav/nav.component';
     AppComponent,
     IndexComponent,
     HeaderComponent,
-    NavComponent
+    NavComponent,
+    MenuComponent
   ],
   imports: [
     BrowserModule,
     RouterModule.forRoot([
       { path: "home", component: IndexComponent},
+      { path: "menu", component: MenuComponent },
       { path: "", pathMatch: "full", redirectTo: "/home" }
     ])
   ],
